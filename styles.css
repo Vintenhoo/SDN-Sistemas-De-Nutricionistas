@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #007bff;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+}
+header h1{
+    margin: 0;
+
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    padding: 20px;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #007bff;
+    color: #fff;
+    align-items: center;
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px; /* Define a altura do rodapé */
+    align-items: center;
+
+}
+
+footer p {
+    margin: 12px 30px; /* Define a margem do parágrafo */
+    font-size: 16px; /* Define o tamanho da fonte do parágrafo */
+    color: inherit; /* Herda a cor do pai, que é branco */
+}
